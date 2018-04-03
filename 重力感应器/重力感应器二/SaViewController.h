@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SaViewController.h
 //  重力感应器
 //
 //  Created by apple on 2018/4/3.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SaViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface SaViewController : UIViewController
 
 @end
-

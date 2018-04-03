@@ -15,6 +15,17 @@
 		18C796C0207314AC00586BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C796BF207314AC00586BE7 /* main.m */; };
 		18C796CA207314AD00586BE7 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C796C9207314AD00586BE7 /* _____Tests.m */; };
 		18C796D5207314AD00586BE7 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C796D4207314AD00586BE7 /* _____UITests.m */; };
+		18C796E42073168E00586BE7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C796E32073168E00586BE7 /* CoreMotion.framework */; };
+		18C796EC2073196300586BE7 /* SaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C796EA2073196300586BE7 /* SaViewController.m */; };
+		18C796ED2073196300586BE7 /* SaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C796EB2073196300586BE7 /* SaViewController.xib */; };
+		18C7970520731BAF00586BE7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970020731BAE00586BE7 /* 1.png */; };
+		18C7970620731BAF00586BE7 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970120731BAE00586BE7 /* 4.png */; };
+		18C7970720731BAF00586BE7 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970220731BAE00586BE7 /* 5.png */; };
+		18C7970820731BAF00586BE7 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970320731BAF00586BE7 /* 6.png */; };
+		18C7970920731BAF00586BE7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970420731BAF00586BE7 /* 3.png */; };
+		18C7970D20731C1800586BE7 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970A20731C1700586BE7 /* 7.png */; };
+		18C7970E20731C1800586BE7 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970B20731C1700586BE7 /* 9.png */; };
+		18C7970F20731C1800586BE7 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7970C20731C1700586BE7 /* 8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,18 @@
 		18C796D0207314AD00586BE7 /* 重力感应器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "重力感应器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C796D4207314AD00586BE7 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		18C796D6207314AD00586BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C796E32073168E00586BE7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		18C796E92073196300586BE7 /* SaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaViewController.h; sourceTree = "<group>"; };
+		18C796EA2073196300586BE7 /* SaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaViewController.m; sourceTree = "<group>"; };
+		18C796EB2073196300586BE7 /* SaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaViewController.xib; sourceTree = "<group>"; };
+		18C7970020731BAE00586BE7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		18C7970120731BAE00586BE7 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		18C7970220731BAE00586BE7 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		18C7970320731BAF00586BE7 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		18C7970420731BAF00586BE7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		18C7970A20731C1700586BE7 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		18C7970B20731C1700586BE7 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		18C7970C20731C1700586BE7 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C796E42073168E00586BE7 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,7 @@
 				18C796C8207314AD00586BE7 /* 重力感应器Tests */,
 				18C796D3207314AD00586BE7 /* 重力感应器UITests */,
 				18C796AE207314AB00586BE7 /* Products */,
+				18C796E22073168E00586BE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,7 @@
 		18C796AF207314AB00586BE7 /* 重力感应器 */ = {
 			isa = PBXGroup;
 			children = (
+				18C796E5207317ED00586BE7 /* 重力感应器二 */,
 				18C796B0207314AB00586BE7 /* AppDelegate.h */,
 				18C796B1207314AB00586BE7 /* AppDelegate.m */,
 				18C796B3207314AB00586BE7 /* ViewController.h */,
@@ -130,6 +156,32 @@
 				18C796D6207314AD00586BE7 /* Info.plist */,
 			);
 			path = "重力感应器UITests";
+			sourceTree = "<group>";
+		};
+		18C796E22073168E00586BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C796E32073168E00586BE7 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C796E5207317ED00586BE7 /* 重力感应器二 */ = {
+			isa = PBXGroup;
+			children = (
+				18C7970A20731C1700586BE7 /* 7.png */,
+				18C7970C20731C1700586BE7 /* 8.png */,
+				18C7970B20731C1700586BE7 /* 9.png */,
+				18C7970020731BAE00586BE7 /* 1.png */,
+				18C7970420731BAF00586BE7 /* 3.png */,
+				18C7970120731BAE00586BE7 /* 4.png */,
+				18C7970220731BAE00586BE7 /* 5.png */,
+				18C7970320731BAF00586BE7 /* 6.png */,
+				18C796E92073196300586BE7 /* SaViewController.h */,
+				18C796EA2073196300586BE7 /* SaViewController.m */,
+				18C796EB2073196300586BE7 /* SaViewController.xib */,
+			);
+			path = "重力感应器二";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +287,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C7970F20731C1800586BE7 /* 8.png in Resources */,
+				18C7970E20731C1800586BE7 /* 9.png in Resources */,
+				18C7970620731BAF00586BE7 /* 4.png in Resources */,
+				18C796ED2073196300586BE7 /* SaViewController.xib in Resources */,
 				18C796BD207314AC00586BE7 /* LaunchScreen.storyboard in Resources */,
+				18C7970920731BAF00586BE7 /* 3.png in Resources */,
 				18C796BA207314AC00586BE7 /* Assets.xcassets in Resources */,
+				18C7970720731BAF00586BE7 /* 5.png in Resources */,
 				18C796B8207314AC00586BE7 /* Main.storyboard in Resources */,
+				18C7970D20731C1800586BE7 /* 7.png in Resources */,
+				18C7970820731BAF00586BE7 /* 6.png in Resources */,
+				18C7970520731BAF00586BE7 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C796EC2073196300586BE7 /* SaViewController.m in Sources */,
 				18C796B5207314AC00586BE7 /* ViewController.m in Sources */,
 				18C796C0207314AC00586BE7 /* main.m in Sources */,
 				18C796B2207314AB00586BE7 /* AppDelegate.m in Sources */,
